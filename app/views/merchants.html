@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>hibu Augmented Reality by hibu Labs</title> 
+	<meta name="description" content="Smart Bootstrap Theme"/>
+	<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
+	<meta name="author" content="Lukasz Holeczek from creativeLabs"/>
+	<!-- end: Meta -->
+	
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end: Mobile Specific -->
+	
+	<!-- start: Facebook Open Graph -->
+	<meta property="og:title" content=""/>
+	<meta property="og:description" content=""/>
+	<meta property="og:type" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:image" content=""/>
+	<!-- end: Facebook Open Graph -->
+
+    <!-- start: CSS -->
+    <link href="/public/stylesheets/bootstrap.css" rel="stylesheet">
+    <link href="/public/stylesheets/bootstrap-responsive.css" rel="stylesheet">
+	<link href="/public/stylesheets/style.css" rel="stylesheet">
+	<link href="/public/stylesheets/parallax-slider.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+    <link href="/public/stylesheets/mycss.css" rel="stylesheet">
+	<!-- end: CSS -->
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+	<!--[if IE 9]>
+      <link href="/public/stylesheets/styleie9.css" rel="stylesheet">
+    <![endif]-->
+
+	
+	
+
+</head>
+<body onload="initialize()">
+	
+	<!--start: Header -->
+	<header>
+		
+		<!--start: Container -->
+		<div class="container">
+			
+			<!--start: Navbar -->
+			<div class="navbar navbar-inverse">
+	    		<div class="navbar-inner">
+	          		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	            		<span class="icon-bar"></span>
+	            		<span class="icon-bar"></span>
+	            		<span class="icon-bar"></span>
+	          		</a>
+					<a class="brand" href="/"><i class="ico-charts circle"></i>Hibu<span> Augmented Signage</span>.</a>
+	          		<div class="nav-collapse collapse">
+	            		<ul class="nav">
+							<li><a href="/">Home</a></li>
+	              			<li><a href="/merchants">Merchants</a></li>
+	              			<li><a href="contact.html">Contact</a></li>
+	            		</ul>
+	          		</div>
+	        	</div>
+	      	</div>
+			<!--end: Navbar -->
+			
+		</div>
+		<!--end: Container-->			
+			
+	</header>
+	<!--end: Header-->
+
+				<div class="title"><h3>Find a participating merchant</h3></div>
+			      		<!--Map Code -->
+			<div id="map_canvas"></div>
+			<!--End of Map Code -->
+
+	<!--start: Wrapper-->
+	<div id="wrapper">
+				
+		<!--start: Container -->
+    	<div class="container">
+			
+			
+			<div class="title"><h3>Participating Merchants</h3></div>
+			<!-- start Clients List -->	
+			<div class="clients-carousel">
+		
+				<ul class="slides clients">
+					<li><img src="/public/images/logos/1.png" alt=""/></li>
+					<li><img src="/public/images/logos/2.png" alt=""/></li>	
+					<li><img src="/public/images/logos/3.png" alt=""/></li>
+					<li><img src="/public/images/logos/4.png" alt=""/></li>
+					<li><img src="/public/images/logos/5.png" alt=""/></li>
+					<li><img src="/public/images/logos/6.png" alt=""/></li>
+					<li><img src="/public/images/logos/7.png" alt=""/></li>
+					<li><img src="/public/images/logos/8.png" alt=""/></li>
+					<li><img src="/public/images/logos/9.png" alt=""/></li>
+					<li><img src="/public/images/logos/10.png" alt=""/></li>
+					<li><img src="/public/images/logos/1.png" alt=""/></li>
+					<li><img src="/public/images/logos/2.png" alt=""/></li>	
+					<li><img src="/public/images/logos/3.png" alt=""/></li>
+					<li><img src="/public/images/logos/4.png" alt=""/></li>
+					<li><img src="/public/images/logos/5.png" alt=""/></li>
+					<li><img src="/public/images/logos/6.png" alt=""/></li>
+					<li><img src="/public/images/logos/7.png" alt=""/></li>
+					<li><img src="/public/images/logos/8.png" alt=""/></li>
+					<li><img src="/public/images/logos/9.png" alt=""/></li>
+					<li><img src="/public/images/logos/10.png" alt=""/></li>	
+				</ul>
+		
+			</div>
+			<!-- end Clients List -->
+
+			
+		</div>
+		<!--end: Container-->
+	
+	</div>
+	<!-- end: Wrapper  -->			
+
+    <!-- start: Footer Menu -->
+	<div id="footer-menu" class="hidden-tablet hidden-phone">
+
+		<!-- start: Container -->
+		<div class="container">
+			
+			<!-- start: Row -->
+			<div class="row">
+
+				<!-- start: Footer Menu Logo -->
+				<div class="span2">
+
+				</div>
+				<!-- end: Footer Menu Logo -->
+
+				<!-- start: Footer Menu Links-->
+				<div class="span9">
+					
+
+					
+				</div>
+				<!-- end: Footer Menu Links-->
+
+				<!-- start: Footer Menu Back To Top -->
+				<div class="span1">
+						
+					<div id="footer-menu-back-to-top">
+						<a href="#"></a>
+					</div>
+				
+				</div>
+				<!-- end: Footer Menu Back To Top -->
+			
+			</div>
+			<!-- end: Row -->
+			
+		</div>
+		<!-- end: Container  -->	
+
+	</div>	
+	<!-- end: Footer Menu -->
+
+	<!-- start: Footer -->
+	<div id="footer">
+		
+		<!-- start: Container -->
+		<div class="container">
+			
+			<!-- start: Row -->
+			<div class="row">
+
+				<!-- start: About -->
+				<div class="span3">
+					
+					<h3>About Us</h3>
+					<p>
+						We are hibu. We help communities thrive by facilitating millions of connections each year between consumers who want to find products and services locally and the merchants who provide them.
+					</p>
+						
+				</div>
+				<!-- end: About -->
+
+				<!-- start: Photo Stream -->
+				<div class="span3">
+					
+				</div>
+				<!-- end: Photo Stream -->
+
+				<div class="span6">
+				
+					<!-- start: Follow Us -->
+					<h3>Follow Us!</h3>
+					<ul class="social-grid">
+						<li>
+							<div class="social-item">				
+								<div class="social-info-wrap">
+									<div class="social-info">
+										<div class="social-info-front social-twitter">
+											<a target="_blank" href="http://twitter.com/hibuPressOffice"></a>
+										</div>
+										<div class="social-info-back social-twitter-hover">
+											<a target="_blank" href="http://twitter.com/hibuPressOffice"></a>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="social-item">				
+								<div class="social-info-wrap">
+									<div class="social-info">
+										<div class="social-info-front social-facebook">
+											<a target="_blank" href="http://www.facebook.com/hibu"></a>
+										</div>
+										<div class="social-info-back social-facebook-hover">
+											<a target="_blank" href="http://www.facebook.com/hibu"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<!-- end: Follow Us -->
+				
+					<!-- start: Newsletter -->
+					<form id="newsletter">
+						<h3>Newsletter</h3>
+						<p>Please leave us your email</p>
+						<label for="newsletter_input">@:</label>
+						<input type="text" id="newsletter_input"/>
+						<input type="submit" id="newsletter_submit" value="submit">
+					</form>
+					<!-- end: Newsletter -->
+				
+				</div>
+				
+			</div>
+			<!-- end: Row -->	
+			
+		</div>
+		<!-- end: Container  -->
+
+	</div>
+	<!-- end: Footer -->
+
+	<!-- start: Copyright -->
+	<div id="copyright">
+	
+		<!-- start: Container -->
+		<div class="container">
+		
+			<div class="span12">
+				<p>
+					&copy; 2013, <a href="http://www.hibu.com">hibu Labs</a>. Designed by SN & PK in London
+				</p>
+			</div>
+	
+		</div>
+		<!-- end: Container  -->
+		
+	</div>	
+	<!-- end: Copyright -->
+
+	
+
+<!-- start: Java Script -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/public/javascripts/jquery-1.8.2.js"></script>
+<script src="/public/javascripts/bootstrap.js"></script>
+<script src="/public/javascripts/isotope.js"></script>
+<script src="/public/javascripts/jquery.imagesloaded.js"></script>
+<script src="/public/javascripts/flexslider.js"></script>
+<script src="/public/javascripts/carousel.js"></script>
+<script src="/public/javascripts/jquery.cslider.js"></script>
+<script src="/public/javascripts/slider.js"></script>
+<script src="/public/javascripts/fancybox.js"></script>
+<script defer="defer" src="/public/javascripts/custom.js"></script>
+<!-- end: Java Script -->
+
+	
+	<!--Map Script -->
+	<!--<link href="https://google-developers.appspot.com/maps/documentation/javascript/examples/default.css" rel="stylesheet">-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script>
+	var map;
+	var markers = [];
+	var infoWindow = new google.maps.InfoWindow({content:" "});
+	
+	function addMarker(lat, lon, text, img){
+	
+		 var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(lat, lon),
+            map: map,
+            title: text
+        });
+		
+		
+		
+		google.maps.event.addListener(marker,'click',function(){
+			infoWindow.setContent("<h4>" + text + "</h4><img width='90' src='" + img + "'>");
+			infoWindow.open(map,this);
+		});
+		
+		markers.push(marker);
+	}
+	
+	
+      function initialize() {
+        var mapOptions = {
+          zoom: 10,
+          center: new google.maps.LatLng(51.5,-0.15),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+		
+		
+		/*
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(51.5, -0.15),
+            map: map,
+            title: 'Hello World!'
+        });
+		
+		var marker2 = new google.maps.Marker({
+            position: new google.maps.LatLng(51.5, -0.16),
+            map: map,
+            title: 'Hello World!'
+        });
+		*/
+        
+      }
+	  
+	  $.ajax({
+	  url: "http://hibu-has.herokuapp.com/boards",
+	  beforeSend: function ( xhr ) {
+		xhr.overrideMimeType("application/json; charset=utf-8");
+	  }
+	}).done(function(data) {
+		for (i=0; i <data.length; i++) {
+			loc = data[i].location;
+			addMarker(loc.lat, loc.lon, data[i].text, data[i].img );
+	  }
+	  //$(this).addClass("done");
+});
+    </script>
+
+
+
+	<!--End of Map Script -->
+</body>
+</html>
