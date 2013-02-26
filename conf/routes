@@ -1,2 +1,2 @@
-GET     /                                       staticDir:site
+GET     /                                       staticDir:public
 
